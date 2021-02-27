@@ -2,4 +2,4 @@ language: python
 
 script:
 
-  - unittest
+  - python -m unittest test_compute_stats.py
