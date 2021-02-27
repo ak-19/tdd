@@ -14,16 +14,16 @@ class TestComputeStats(TC):
         self.assertEqual(count(self.data), 1000)   
 
     def test_summation(self):     
-        self.assertEqual(summation(self.data), 499498);
+        self.assertEqual(summation(self.data), 499498)
 
     def test_average(self):     
-        self.assertEqual(average(self.data), 499.498);  
+        self.assertEqual(average(self.data), 499.498)
 
     def test_minimum(self):     
-        self.assertEqual(minimum(self.data), 1); 
+        self.assertEqual(minimum(self.data), 1)
 
     def test_maximum(self):     
-        self.assertEqual(maximum(self.data), 997);
+        self.assertEqual(maximum(self.data), 997)
 
     def test_harmonic_mean(self):                        
         self.assertEqual(harmonic_mean(self.data), 129.72817300624072)
